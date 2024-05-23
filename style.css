@@ -2,3 +2,27 @@
   margin: 0;
   padding: 0;
 }
+
+header,
+footer {
+  height: 8vh;
+  background-color: #53989a;
+}
+
+.main-container {
+  display: flex;
+  width: 100vw;
+}
+
+main {
+  height: 84vh;
+}
+
+.side-bar {
+  width: 12vw;
+  background-color: #81a6a7;
+}
+
+.content-container {
+  width: 88vw;
+}
