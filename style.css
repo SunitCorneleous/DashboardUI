@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  color: #fff;
+  /* margin: 0;
+  padding: 0; */
 }
 
 a {
@@ -14,6 +13,7 @@ header,
 footer {
   height: 8vh;
   background-color: #7769d8;
+  color: #fff;
 }
 
 .main-container {
@@ -28,15 +28,16 @@ main {
 .logo {
   text-align: center;
   padding: 15px;
-  font-size: 1.97rem;
+  font-size: 1.52rem;
   font-family: 'Poetsen One', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .side-bar {
-  width: 12vw;
+  width: 13%;
   background-color: #2a3467;
+  color: #fff;
 }
 
 .menu-section {
@@ -45,14 +46,48 @@ main {
 }
 
 .menu-section ul li {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 12px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.menu-section ul li:hover {
+  font-size: 1.2rem;
+  padding: 12px;
+  background-color: #7769d8;
 }
 
 .menu-section ul li i {
-  padding-right: 9px;
+  padding-right: 15px;
 }
 
 .content-container {
-  width: 88vw;
+  width: 87%;
+}
+
+.user-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.user-box i {
+  display: block;
+  font-size: 1.7rem;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  padding: 15px;
+}
+
+.card {
+  color: #000;
+  min-height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
