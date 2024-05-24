@@ -1,14 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
 * {
   margin: 0;
   padding: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
 }
 
 header,
 footer {
   height: 8vh;
-  background-color: #53989a;
+  background-color: #7769d8;
 }
 
 .main-container {
@@ -24,14 +29,28 @@ main {
   text-align: center;
   padding: 15px;
   font-size: 1.97rem;
-  font-family: "Poetsen One", sans-serif;
+  font-family: 'Poetsen One', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .side-bar {
   width: 12vw;
-  background-color: #81a6a7;
+  background-color: #2a3467;
+}
+
+.menu-section {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.menu-section ul li {
+  font-size: 1.5rem;
+  padding: 12px;
+}
+
+.menu-section ul li i {
+  padding-right: 9px;
 }
 
 .content-container {
