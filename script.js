@@ -1,7 +1,6 @@
 $(document).ready(function () {
   console.log('jquery working');
 
-  // Sample data for weekly sales
   const weeklySalesData = {
     labels: [
       'Monday',
@@ -23,7 +22,6 @@ $(document).ready(function () {
     ],
   };
 
-  // Configuration options for the chart
   const config = {
     type: 'bar',
     data: weeklySalesData,
@@ -36,7 +34,6 @@ $(document).ready(function () {
     },
   };
 
-  // Render the chart
   const ctx = document.getElementById('weeklySalesChart').getContext('2d');
   new Chart(ctx, config);
 });

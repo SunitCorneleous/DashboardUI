@@ -57,86 +57,45 @@
           </div>
         </header>
         <main>
-          <div class="card-container">
-            <div
-              class="card"
-              style="
-                padding: 15px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-              "
-            >
-              <div>
-                <h2>Weekly Sales</h2>
-                <p style="font-size: 75px">$30K</p>
-                <span class="badge text-bg-success">+15.5%</span>
-              </div>
-              <div>
-                <canvas id="weeklySalesChart"></canvas>
-              </div>
+          <form class="add-product-box">
+            <div class="form-group">
+              <label for="productName">Product Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="productName"
+                placeholder="Enter product name"
+              />
             </div>
-            <div class="card" style="padding: 15px; display: flex">
-              <div>
-                <h2>Total Order</h2>
-                <p style="font-size: 75px">15K</p>
-                <span class="badge text-bg-success">+5.5%</span>
-              </div>
+            <div class="form-group">
+              <label for="category">Category</label>
+              <input
+                type="text"
+                class="form-control"
+                id="category"
+                placeholder="Enter category"
+              />
             </div>
-          </div>
-          <div class="card" style="margin: 15px">
-            <div class="container">
-              <h2 class="mb-4">Top Products</h2>
-              <table class="table table-striped table-bordered">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Product Name</th>
-                    <th scope="col">Category</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Rating</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Product A</td>
-                    <td>Electronics</td>
-                    <td>$299.99</td>
-                    <td>4.5</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Product B</td>
-                    <td>Home & Kitchen</td>
-                    <td>$89.99</td>
-                    <td>4.7</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Product C</td>
-                    <td>Fashion</td>
-                    <td>$49.99</td>
-                    <td>4.3</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Product D</td>
-                    <td>Books</td>
-                    <td>$19.99</td>
-                    <td>4.8</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">5</th>
-                    <td>Product E</td>
-                    <td>Sports & Outdoors</td>
-                    <td>$149.99</td>
-                    <td>4.6</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="form-group">
+              <label for="price">Price</label>
+              <input
+                type="text"
+                class="form-control"
+                id="price"
+                placeholder="Enter price"
+              />
             </div>
-          </div>
+            <div class="form-group">
+              <label for="rating">Rating</label>
+              <input
+                type="text"
+                class="form-control"
+                id="rating"
+                placeholder="Enter rating"
+              />
+            </div>
+            <button type="submit" class="btn btn-warning">Add Product</button>
+          </form>
         </main>
         <footer><p>Designed by Sunit Corneleous</p></footer>
       </section>

@@ -28,6 +28,12 @@ main {
 footer {
   position: sticky;
   bottom: 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.5rem;
+  padding: 8px 0;
 }
 
 .main-container {
@@ -104,4 +110,12 @@ main {
   color: #000;
   min-height: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-product-box {
+  padding: 15px;
+}
+
+.add-product-box .form-group {
+  padding-bottom: 15px;
 }
